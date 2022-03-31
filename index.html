@@ -4,53 +4,127 @@
     <meta charset="utf-8"/>
     <title>Marino Zirks</title>
 
+    <!-- Meta-Daten -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- External fonts from Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
           rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Reset CSS -->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+    <!-- Utility CSS -->
+    <link rel="stylesheet" type="text/css" href="css/flipcard.css">
+
+    <!-- General CSS -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
 
+    <!-- Nav CSS -->
+    <link rel="stylesheet" type="text/css" href="css/gridbox.css">
+    <link rel="stylesheet" type="text/css" href="css/flexbox.css">
+    <link rel="stylesheet" type="text/css" href="css/tiles.css">
+
+    <!-- Pages CSS -->
+    <link rel="stylesheet" type="text/css" href="css/pages.css">
+
+    <!-- Custom JS -->
     <script type="text/javascript" src="scripts/script.js"></script>
 </head>
-<body class="tile-grid">
-<div id="ueberMich" class="tile-grid-item flipcard">
-    <div class="flipcard-inner flexbox">
-        <div class="flipcard-front">
-            <header>
-                <h2>Marino Zirks</h2>
-            </header>
-        </div>
-        <div class="flipcard-back">
-            <header>
-                <h2>Marino Zirks</h2>
-            </header>
-            <article>
-                <ul>
-                    <li>Fachinformatiker für Anwendungsentwicklung (FIAW)</li>
-                    <li>Game Programmer</li>
-                </ul>
-            </article>
+
+
+
+
+
+<body>
+<nav class="tile-grid">
+    <div id="tile-ueberMich" class="tile-grid-item flipcard">
+        <div class="flipcard-inner flexbox">
+            <div class="flipcard-front">
+                <header>
+                    <h1>Marino Zirks</h1>
+                </header>
+            </div>
+            <div class="flipcard-back">
+                <header>
+                    <h1>Marino Zirks</h1>
+                </header>
+                <article>
+                    <ul>
+                        <li>Fachinformatiker für Anwendungsentwicklung (FIAW)</li>
+                        <li>Game Programmer</li>
+                    </ul>
+                </article>
+            </div>
         </div>
     </div>
-</div>
-<div id="vita" class="tile-grid-item flexbox">
-    <header>
-        <h2>Vita</h2>
-    </header>
-</div>
-<div id="kontakte" class="tile-grid-item flexbox">
-    <header>
-        <h2>Kontakte</h2>
-    </header>
-</div>
-<div id="portfolio" class="tile-grid-item flexbox">
-    <header>
-        <h2>Portfolio</h2>
-    </header>
-</div>
+
+
+
+
+
+    <div id="tile-vita" class="tile-grid-item">
+        <a href="#page-vita" class="flexbox">
+            <header>
+                <h2>Vita</h2>
+            </header>
+        </a>
+    </div>
+
+
+
+
+
+    <div id="tile-kontakte" class="tile-grid-item">
+        <div class="flipcard-inner flexbox">
+            <div class="flipcard-front">
+                <header>
+                    <h2>Kontakte</h2>
+                </header>
+            </div>
+            <div class="flipcard-back">
+                <header>
+                    <h2>Kontakte</h2>
+                </header>
+                <article>
+                    <a href="https://github.com/zondaken">
+                        <img src="./media/images/Octicons-mark-github.svg" width="32" alt="Github Logo">
+                        <span>/zondaken</span>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="tile-portfolio" class="tile-grid-item ">
+        <a href="#page-portfolio" class="flexbox">
+            <header>
+                <h2>Portfolio</h2>
+            </header>
+        </a>
+    </div>
+</nav>
+
+
+
+
+
+<article id="page-vita" class="page">
+    Content Vita
+</article>
+
+
+
+
+
+<article id="page-portfolio" class="page">
+    Content Portfolio
+</article>
 </body>
 </html>

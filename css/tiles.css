@@ -1,0 +1,99 @@
+@media all {
+    /*
+     * Kachel 1 - Ueber mich
+     */
+    #tile-ueberMich {
+        background: #ffee55;
+        color: #210c65;
+        text-align: center;
+    }
+
+    #tile-ueberMich article {
+        font-size: 20px;
+    }
+
+
+
+
+
+    /*
+     * Kachel 2 - Vita
+     */
+    #tile-vita {
+        background: #A2A3B3;
+    }
+
+    #tile-vita:hover {
+        background: #1E39EB;
+    }
+
+
+
+
+
+
+
+    /*
+     * Kachel 3 - Kontakte
+     */
+    #tile-kontakte {
+        grid-row: 2/span 1;
+        grid-column: 1/span 1;
+
+        background: #5D5D66;
+    }
+
+    #tile-kontakte .flipcard-back {
+        color: white;
+    }
+
+    #tile-kontakte:hover {
+        background: #1887F5;
+    }
+
+    #tile-kontakte article {
+        /*color: white;*/
+        font-size: 28px;
+    }
+
+    #tile-kontakte img {
+        vertical-align: middle;
+    }
+
+    #tile-kontakte a {
+        display: flex;
+        align-items: center;
+
+        color: #011f1e;
+        text-decoration: none;
+    }
+
+    #tile-kontakte img {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    #tile-kontakte a span {
+        text-decoration: underline;
+    }
+
+    #tile-kontakte a:hover span {
+        text-decoration: none;
+    }
+
+
+
+
+
+    /*
+     * Kachel 4 - Portfolio
+     */
+    #tile-portfolio {
+        background: #686973;
+    }
+
+    #tile-portfolio:hover {
+        background: #1E58D6;
+        color: white;
+    }
+}
