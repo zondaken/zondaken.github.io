@@ -1,0 +1,233 @@
+@media only screen and (min-width: 700px) {
+    html {
+        scroll-behavior: smooth;
+        overflow: hidden;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    /*
+     * Grid
+     */
+    nav {
+        display: grid;
+        grid-template-rows: 50% auto;
+        grid-template-columns: 50% auto;
+
+        max-width: 100vW;
+        height: 100vH;
+
+        font-family: 'Oswald', sans-serif;
+    }
+
+    nav .item {
+        width: 100%;
+        height: 100%;
+
+        cursor: pointer;
+        transition: all 200ms ease-out;
+    }
+
+    nav .item .inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav .item header {
+        font-size: 35px;
+    }
+
+    nav .item article {
+        font-size: 20px;
+    }
+
+    nav .item a {
+        width: 100%;
+        height: 100%;
+        color: #000;
+        display: block;
+        text-decoration: none;
+    }
+
+    nav .ueberMich {
+        grid-row: 1/span 1;
+        grid-column: 1/span 1;
+    }
+
+    nav .vita {
+        grid-row: 1/span 1;
+        grid-column: 2/span 1;
+    }
+
+    nav .kontakte {
+        grid-row: 2/span 1;
+        grid-column: 1/span 1;
+    }
+
+    nav .portfolio {
+        grid-row: 2/span 1;
+        grid-column: 2/span 1;
+    }
+
+    /*
+     * Flexbox
+     */
+    .flexbox,
+    nav .item > a,
+    nav .item > .inner
+    {
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*
+     * Tiles
+     */
+
+    /* Tile 1 */
+    nav .ueberMich {
+        color: #2d2d2d;
+        text-align: center;
+    }
+
+    nav .ueberMich .inner {
+        background: #A2A3B3;
+        transition: all 700ms ease-out;
+    }
+
+    nav .ueberMich:hover .inner {
+        background: #ffc900;
+    }
+
+    .nav .ueberMich article {
+        font-size: 20px;
+    }
+
+    nav .ueberMich .front {
+        color: #000000;
+    }
+
+    nav .ueberMich .back {
+        color: #000000;
+    }
+
+    /* Tile 2 */
+    nav .vita {
+        background: #686973;
+    }
+
+    nav .vita:hover {
+        background: #67EB8B;
+    }
+
+    nav .vita:hover a {
+        color: #053104;
+    }
+    
+    /* Tile 3 */
+    nav .kontakte {
+        grid-row: 2/span 1;
+        grid-column: 1/span 1;
+    }
+
+    nav .kontakte .inner {
+        background: #5D5D66;
+        transition: all 700ms ease-out;
+    }
+
+    nav .kontakte:hover .inner {
+        background: #369E52;
+    }
+
+    nav .kontakte .back {
+        color: white;
+    }
+
+    nav .kontakte article {
+        /*color: white;*/
+        font-size: 28px;
+    }
+
+    nav .kontakte img {
+        vertical-align: middle;
+    }
+
+    nav .kontakte a {
+        display: flex;
+        align-items: center;
+
+        color: #011f1e;
+        text-decoration: none;
+    }
+
+    nav .kontakte img {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    nav .kontakte a span {
+        text-decoration: underline;
+    }
+
+    nav .kontakte a:hover span {
+        text-decoration: none;
+    }
+    
+    /* Tile 4 */
+    nav .portfolio {
+        background: #A2A3B3;
+    }
+
+    nav .portfolio:hover {
+        background: #F0595B;
+    }
+
+    /*
+     * Flipcard
+     */
+    nav .item .inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    nav .item .front, nav .item .back {
+        position: absolute;
+
+        transition: all 700ms;
+
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    nav .item .front {
+        transform: rotateY(0deg);
+    }
+
+    nav .item .back {
+        transform: rotateY(180deg);
+    }
+
+    nav .item:hover .front {
+        transform: rotateY(180deg);
+    }
+
+    nav .item:hover .back {
+        transform: rotateY(0deg);
+    }
+
+    /*
+     * Pages
+     */
+    .page {
+        max-width: 100vW;
+        height: 100vH;
+        overflow: auto;
+    }
+}

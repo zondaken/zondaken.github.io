@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2379bc02-42b4-4ed9-9f26-457ca112ffae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/flexbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/flipcard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/gridbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/tiles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/images/Octicons-mark-github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/newCustom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flexbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flexbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flipcard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flipcard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/gridbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gridbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tiles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tiles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +63,8 @@
       <workItem from="1648107405492" duration="4890000" />
       <workItem from="1648114526027" duration="10000000" />
       <workItem from="1648708726326" duration="12228000" />
+      <workItem from="1649313787910" duration="1134000" />
+      <workItem from="1649319390843" duration="6269000" />
     </task>
     <servers />
   </component>
