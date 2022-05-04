@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2379bc02-42b4-4ed9-9f26-457ca112ffae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/newCustom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/flexbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flexbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/flipcard.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/flipcard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gridbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gridbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tiles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tiles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/newCustom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom/screen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26VncZ8dyvC6iHPYu9mTO1TZ7eA" />
   <component name="ProjectLevelVcsManager">
@@ -51,6 +49,11 @@
     <property name="settings.editor.splitter.proportion" value="0.21588595" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Daten\Informatik\Programmierung (Neu)\HTML\zondaken.github.io\css\custom" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +68,7 @@
       <workItem from="1648708726326" duration="12228000" />
       <workItem from="1649313787910" duration="1134000" />
       <workItem from="1649319390843" duration="6269000" />
+      <workItem from="1651129915848" duration="1488000" />
     </task>
     <servers />
   </component>
@@ -81,7 +85,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
